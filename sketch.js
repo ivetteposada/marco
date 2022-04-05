@@ -94,7 +94,7 @@ function draw() {
     ground.velocityX = -(6 + 3*score/100);
     
     console.log(marco.y)
-    if((touches.length > 0 || keyDown("SPACE")) && marco.y  >= windowHeight-120) {
+    if((touches.length > 0 || keyDown("SPACE"))) {
       jumpSound.play( )
       marco.velocityY = -10;
        touches = [];
