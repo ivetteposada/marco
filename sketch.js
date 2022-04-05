@@ -47,7 +47,7 @@ function setup() {
   //marco.addAnimation("collided", marco_collided);
   marco.setCollider('circle',0,0,380)
   marco.scale = 0.12
-   marco.debug=true
+  // marco.debug=true
   
   invisibleGround = createSprite(0,height+25,width,125);  
   invisibleGround.shapeColor = "#f4cbaa";
